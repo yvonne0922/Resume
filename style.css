@@ -1,3 +1,21 @@
 h1 {
     color: blueviolet
 }
+
+ul {
+    font-weight: bold;
+}
+
+/* large device */
+@media (min-width: 1200px) {
+    section {
+        width: 80%
+    }
+}
+
+/* medium device */
+@media (min-width: 992px) and (max-width: 1199px){
+    section {
+        width: 50%
+    }
+}
