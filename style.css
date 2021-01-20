@@ -6,6 +6,60 @@ ul {
     font-weight: bold;
 }
 
+.navbar-brand {
+      font-size: 2em !important;
+      padding-right: 60px;
+      padding-left: 10px;
+    }
+
+.nav-item {
+    font-size: 1.5em !important;
+    padding-right: 50px;
+}
+
+section { 
+    margin: 10px;
+}
+
+.container{
+    position: relative;
+}
+
+.container:hover .overlay{
+    opacity:0.6;
+}
+
+.overlay {
+    position: absolute;
+    background-color: white;
+    transition: .5s;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;    
+}
+
+.hi {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.pic {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+
 /* large device */
 @media (min-width: 1200px) {
     section {
