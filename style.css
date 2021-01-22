@@ -1,9 +1,17 @@
-h1 {
-    color: blueviolet
-}
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+
 
 ul {
     font-weight: bold;
+}
+
+.navbar {
+    padding: 40%;
 }
 
 .navbar-brand {
@@ -17,15 +25,56 @@ ul {
     padding-right: 50px;
 }
 
-section { 
-    margin: 10px;
+.pic {
+    width: 80%;
+    display: inline-block;
+}
+
+.cv{
+    background-color: #a7c484;
+    font-size: 1.5rem;
+    padding: 1% 5% 1% 5%;
+    border-radius: 40px;
+    opacity: 0.6;
+    
+
+}
+
+.cv:hover {
+    opacity:1;
+    
+}
+
+.cv a:hover {
+    color: rgb(43, 80, 49);
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.cv a{
+    color: rgb(43, 80, 49);
+}
+
+#intro{
+    background-color:#ECE8DF;
+}
+
+#about { 
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#review { 
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .container{
     position: relative;
+    max-width: 1800px !important;
 }
 
-.container:hover .overlay{
+/* .container:hover .overlay{
     opacity:0.6;
 }
 
@@ -51,25 +100,38 @@ section {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     opacity: 1;
-}
+} */
 
-.pic {
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    display: block;
+
+
+
+html { font-size: 1rem; }
+@media (min-width: 100px) {
+    html { font-size: 0.75rem; }
+}
+@media (min-width: 576px) {
+    html { font-size: 0.75rem; }
+}
+@media (min-width: 768px) {
+    html { font-size: 0.75rem; }
+}
+@media (min-width: 992px) {
+    html { font-size: 0.75rem; }
+}
+@media (min-width: 1200px) {
+    html { font-size: 1rem; }
 }
 
 /* large device */
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     section {
         width: 80%
     }
-}
+} */
 
 /* medium device */
-@media (min-width: 992px) and (max-width: 1199px){
+/* @media (min-width: 992px) and (max-width: 1199px){
     section {
         width: 50%
     }
-}
+} */
