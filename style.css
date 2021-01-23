@@ -1,10 +1,17 @@
-/* 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
 
+* {
+    box-sizing: border-box;
+  }
+
+  .container{
+    position: relative;
+    max-width: 1800px !important;
+}
+
+section {
+    padding: 5rem;
+}
+/*-------navbar--------*/
 
 ul {
     font-weight: bold;
@@ -25,24 +32,22 @@ ul {
     padding-right: 50px;
 }
 
-.pic {
-    width: 80%;
-    display: inline-block;
+.nav-item .nav-link:active,
+.nav-item .nav-link:hover{
+    color:rgb(233, 183, 76) !important;
 }
 
 .cv{
-    background-color: #a7c484;
+    background-color: rgb(233, 183, 76);
     font-size: 1.5rem;
     padding: 1% 5% 1% 5%;
     border-radius: 40px;
     opacity: 0.6;
-    
-
+    display: inline-block;
 }
 
 .cv:hover {
-    opacity:1;
-    
+    opacity:1;   
 }
 
 .cv a:hover {
@@ -54,26 +59,65 @@ ul {
 .cv a{
     color: rgb(43, 80, 49);
 }
+/*------hi----------*/
+
+.pic {
+    width: 80%;
+    display: inline-block;
+}
+
+.short {
+    /* background-color: rgb(238, 214, 162); */
+    padding: 20px;
+    border-radius: 50px;
+    color: rgb(43, 80, 49);
+}
+
+.email {
+    background-color: rgb(233, 183, 76);
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    color: rgb(43, 80, 49);
+}
+
+.email:hover {
+    color: rgb(43, 80, 49);
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+
+/*----------intro-----------*/
 
 #intro{
     background-color:#ECE8DF;
 }
+
+
+
+/*-------about-------------*/
 
 #about { 
     margin-left: 2em;
     margin-right: 2em;
 }
 
+.aboutme {
+    display:inline;
+    padding-top: 7rem;
+}
+
+/*---------review----------*/
+
 #review { 
     margin-left: 2em;
     margin-right: 2em;
 }
 
-.container{
-    position: relative;
-    max-width: 1800px !important;
+.reviewinfo{
+    display:inline-block;
 }
-
 /* .container:hover .overlay{
     opacity:0.6;
 }
@@ -103,7 +147,7 @@ ul {
 } */
 
 
-
+/*------mediaQ----------*/
 
 html { font-size: 1rem; }
 @media (min-width: 100px) {

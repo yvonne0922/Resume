@@ -6,7 +6,6 @@
     <link rel = "stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Yvonne's Resume</title>
-    <!-- <h1>Yvonne's Resume</h1> -->
     
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-4" style="background-color: #506536;">
         <a class="navbar-brand" href="#">Yvonne's Resume</a>
@@ -44,13 +43,15 @@
     <div class="container">
         <div class="row">
             <div class = "rounded mx-auto d-block col-sm-6">
-                <img src ="YvonnePhoto.jpg" alt= "Yvonne" class ="pic img-responsive center-block d-block mx-auto">
+                <img src ="YvonnePhoto6.png" alt= "Yvonne" class ="pic img-responsive center-block d-block mx-auto">
             </div>
             <div class = "d-flex flex-column justify-content-center align-items-center text-center col-sm-6">
-                <h3>Yvonne, an HR professional +</h3>
-                <h3>Newbie front-end developer</h3>
+               <div class ="short">
+                    <h3 id= "one">Yvonne, an HR professional +</h3>
+                    <h3 id ="two">Newbie front-end developer</h3>
+                </div>
                 <br>
-                <h4>ivy810922@gmail.com</h4>
+                <a href ="mailto:ivy810922@gmail.com" class = "email"> 📧 ivy810922@gmail.com</a>
             </div>
         </div>
     </div>
@@ -65,23 +66,29 @@
 </section>
 
 <section id = 'about'>
-    <br>
-    <br>
+
     <div class = "container">
         <div class = "row"> 
-            <h3>About Yvonne</h3>
-            <p>Yvonne Resume HTML Template. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.
-                However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
+            <div class = "col-md-6 col-sm-12">
+                <h3>About Yvonne</h3>
+                <p>Yvonne Resume HTML Template. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.
+                    However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
 
-            <ul>
-                <li>Full Name: Yi-Fang (Yvonne), Wang</li>
-                <a href = "https://www.linkedin.com/in/yi-fang-yvonne-wang-b35b8b104/"><li>LinkedIn Profile</li></a>
-                <li>Residency: San Jose, CA</li>
-                <li>Email: ivy810922@gmail.com</li>
-            </ul>
+                <ul>
+                    <li>Full Name: Yi-Fang (Yvonne), Wang</li>
+                    <a href = "https://www.linkedin.com/in/yi-fang-yvonne-wang-b35b8b104/"><li>LinkedIn Profile</li></a>
+                    <li>Current Residency: San Jose, CA</li>
+                    <li>Email: ivy810922@gmail.com</li>
+                </ul>
+            </div>
+        
+
+            <div class ="col-md-6 col-sm-12">
+                <img src ="Minn2.jpg" alt = "Minnesota" class = "minn img-fluid">
+            </div>
         </div>
            
-        <div class ="row">
+        <div class ="row aboutme">
             <div class="col-lg-4 col-md-4 col-12">
             <h3>My family</h3>
                 <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
@@ -98,15 +105,30 @@
     </div>
 </section>
 
-<br>
-<br>
 
 <section id = "review">
     <div class = "container">
+        <div class = "row text-center col-12">
+            <div class="col">
+                <h2>What people say</h2>
+            </div>
+        </div>
         <div class = "row">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-        <h4>Manager</h4>
-        <h5>HRBP, Visa</h5>
+                <div class = "col-md-4 col-12 reviewinfo">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                    <h5>Manager</h5>
+                    <h6>HRBP, Visa</h6>
+                </div>
+                <div class = "col-md-4  col-12 reviewinfo">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                    <h5>Manager</h5>
+                    <h6>HRBP, Visa</h6>
+                </div>
+                 <div class = "col-md-4  col-12 reviewinfo">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                    <h5>Manager</h5>
+                    <h6>HRBP, Visa</h6>
+                </div>
         </div>
     </div>
 </section>
