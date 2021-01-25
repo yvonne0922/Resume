@@ -1,9 +1,10 @@
 
 * {
     box-sizing: border-box;
+    line-height: 1.8;
   }
 
-  .container{
+.container{
     position: relative;
     max-width: 1800px !important;
 }
@@ -19,6 +20,7 @@ ul {
 
 .navbar {
     padding: 40%;
+    font-family: Arial, sans-serif;
 }
 
 .navbar-brand {
@@ -79,6 +81,7 @@ ul {
     border-radius: 50px;
     font-size: 1.5rem;
     color: rgb(43, 80, 49);
+    white-space: nowrap;
 }
 
 .email:hover {
@@ -98,10 +101,6 @@ ul {
 
 /*-------about-------------*/
 
-#about { 
-    margin-left: 2em;
-    margin-right: 2em;
-}
 
 .aboutme {
     display:inline;
@@ -111,13 +110,14 @@ ul {
 /*---------review----------*/
 
 #review { 
-    margin-left: 2em;
-    margin-right: 2em;
+    background-color:#fcf8f0;
 }
 
 .reviewinfo{
     display:inline-block;
 }
+
+
 /* .container:hover .overlay{
     opacity:0.6;
 }
