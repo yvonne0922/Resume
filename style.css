@@ -101,57 +101,71 @@ ul {
 
 /*-------about-------------*/
 
+#about {
+    padding-bottom: 3rem; 
+}
 
 .aboutme {
     display:inline;
-    padding-top: 7rem;
+    padding-top: 5rem;
 }
+
+.aboutpic {
+    width: 100%;
+}
+
+.goal li {
+    font-weight: lighter;
+}
+
+.carousel-caption {
+    font-weight: normal;
+    background-color: #fcf8f0;
+    opacity: 0.7;
+    padding: 8px 0px !important;
+}
+
+.carousel-caption h6 {
+    color:rgb(43, 80, 49);
+}
+
 
 /*---------review----------*/
 
 #review { 
     background-color:#fcf8f0;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 .reviewinfo{
-    display:inline-block;
+    align-items: center;
+    margin-left: 4rem;
 }
 
-
-/* .container:hover .overlay{
-    opacity:0.6;
+.pic1 {  
+    float: left;
+    margin: 0 1rem 13rem 1rem;
+    position: relative;
+    display:block;
+    width: 100px !important;
 }
 
-.overlay {
-    position: absolute;
-    background-color: white;
-    transition: .5s;
-    opacity: 0;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;    
+.item {
+    width: 100%;
 }
 
-.hi {
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    opacity: 1;
-} */
+.carousel-indicators li{
+    background-color: rgb(233, 183, 76) !important;
+} 
 
 
 /*------mediaQ----------*/
 
 html { font-size: 1rem; }
 @media (min-width: 100px) {
-    html { font-size: 0.75rem; }
+    html { font-size: 0.7rem; }
+    img{ width:150%;} 
 }
 @media (min-width: 576px) {
     html { font-size: 0.75rem; }

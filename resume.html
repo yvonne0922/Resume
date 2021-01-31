@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel = "stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">  
     <title>Yvonne's Resume</title>
     
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-3.8" style="background-color: #506536;">
@@ -43,7 +45,7 @@
     <div class="container">
         <div class="row">
             <div class = "rounded mx-auto d-block col-sm-6">
-                <img src ="YvonnePhoto8.png" alt= "Yvonne" class ="pic img-responsive center-block d-block mx-auto img-fluid">
+                <img src ="img/YvonnePhoto8.png" alt= "Yvonne" class ="pic img-responsive center-block d-block mx-auto img-fluid">
             </div>
             <div class = "d-flex flex-column justify-content-center align-items-center text-center col-sm-6">
                <div class ="short">
@@ -70,10 +72,8 @@
     <div class = "container">
         <div class = "row"> 
             <div class = "col-md-6 col-sm-12">
-                <h3>About Yvonne</h3>
-                <p>Yvonne Resume HTML Template. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.
-                    However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
-
+                <h3 class = 'mb-3'>About Yvonne</h3>
+                <p>Yvonne graduated from University of Minnesota - Twin Cities in 2017. She enjoyed learning new things and taking challenges. She had a variety of experiences of working with different stakeholders and supporting business leaders. Since Covid lockdown, she has been actively self-learning new skills like baking, crocheting, and coding as a newbie front end developer.</p>
                 <ul>
                     <li>Full Name: Yi-Fang (Yvonne), Wang</li>
                     <a href = "https://www.linkedin.com/in/yi-fang-yvonne-wang-b35b8b104/" target = "_blank"><li>LinkedIn Profile</li></a>
@@ -81,25 +81,63 @@
                     <li>Email: ivy810922@gmail.com</li>
                 </ul>
             </div>
-        
+            
 
-            <div class ="col-md-6 col-sm-12">
-                <img src ="Minn2.jpg" alt = "Minnesota" class = "minn img-fluid">
+            <div id = "myCarousel" class ="col-md-6 col-sm-12 carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target= "#myCarousel" data-slide-to = "0" class ="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                     <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class = "carousel-inner">
+                    <div class = "carousel-item active">
+                        <img src ="img/Minn2.jpg" alt = "Minnesota" class = "aboutpic img-fluid" width="500" height="250">
+                        <div class="carousel-caption">
+                            <h6>University of Minnesota</h6>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <img src = "img/grad.jpg" alt ="Graduation" class = "aboutpic img-fluid" width="500" height="250">
+                        <div class="carousel-caption">
+                            <h6>Graduation Day</h6>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <img src = "img/SF.jpg" alt = "San Francisco" class = "aboutpic img-fluid" width="500" height="250">
+                        <div class="carousel-caption">
+                            <h6>Moved to San Francisco for work</h6>
+                        </div>
+                    </div>
+                    <div class = "carousel-item">
+                        <img src = "img/cat.jpg" alt = "My 3 cats" class = "aboutpic img-fluid" width="500" height="250">
+                        <div class="carousel-caption">
+                            <h6>My 3 cats</h6>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
            
         <div class ="row aboutme">
             <div class="col-lg-4 col-md-4 col-12">
-            <h3>My family</h3>
-                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+            <h3 class = 'mb-3'>Goals for 2021</h3>
+                <p><ul class="goal">
+                    <li>Try at least 10 new things; </li>
+                    <li>Explore new opportunities in my career; </li>
+                    <li>Learn at least 2 new skills</li>
+                </ul>    
+                </p>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-            <h3>My hobbies</h3>
-                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+            <h3 class = 'mb-3'>My hobbies</h3>
+                <p>Yvonne is obsessed with any handmade foods or handicrafts. She enjoys doing handicrafts, drawing, playing piano, and gardening. On the weekend, she likes to explore new hiking trails with her husband.</p>
             </div>
             <div class="col-lg-4 col-md-4 col-12">
-            <h3>My favorite</h3>
-                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+            <h3 class = 'mb-3'>My favorite</h3>
+                <p>Yvonne loves traveling and takes adventures. Before Covid, she targeted to travel one or two different countries every year. She is also a cataholic, she has adopted 3 cats since 2019.
+                </p>
             </div>
         </div>
     </div>
@@ -108,29 +146,130 @@
 
 <section id = "review">
     <div class = "container">
-        <div class = "row text-center col-12">
+        <div class = "row text-center mb-3 col-12">
             <div class="col">
                 <h2>What people say</h2>
             </div>
         </div>
-        <div class = "row">
-                <div class = "col-md-4 col-12 reviewinfo">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-                    <h5>Manager</h5>
+
+
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="reviewPic">
+                    <img src = "img/iconfinder_5_avatar_1.png" class="img-fluid pic1">
+                </div>
+                <div class="reviewText">
+                    <p>Yvonne goes above and beyond to find solutions, even when the information is hard to find which was demonstrated with her work addressing the completion of project. </p>
+                    <h5>Current Manager</h5>
                     <h6>HRBP, Visa</h6>
                 </div>
-                <div class = "col-md-4  col-12 reviewinfo">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-                    <h5>Manager</h5>
+            </div>
+
+            <div class = "item">
+                <div class="reviewPic">
+                    <img src = "img/iconfinder_9_avatar_2.png" class ="img-fluid pic1">
+                </div>
+                <div class="reviewText">
+                    <p>Yvonne is such a great partner. She has done a great job of taking ownership of work and working with the different stakeholders despite in the high pressure situation.</p>
+                    <h5>Colleague</h5>
+                    <h6>Sr. Director, Visa</h6>
+                </div>
+            </div>
+
+            <div class = "item">
+                <div class="reviewPic">
+                    <img src ="img/iconfinder_1_avatar_3.png" class = "img-fluid pic1">
+                </div>
+                <div class="reviewText">
+                    <p>Yvonne is extremely effective in her role. What makes her a pleasure to work with is that she not only completes requests in an extremely timely and accurate manner, but also does so with a great attitude.</p>
+                    <h5>Client</h5>
+                    <h6>Sr. Director, Visa</h6>
+                </div>
+            </div>
+
+
+            <div class = "item">
+                <div class="reviewPic">
+                    <img src = "img/iconfinder_4_avatar_4.png" class = "img-fluid pic1">
+                </div>
+                <div class="reviewText">
+                    <p>Yvonne leads by example by being accountable for all that is asked of her, proactively following up to share status/ confirm completion of her commitments, and demonstrating a willingness to learn.</p>
+                    <h5>Previous Manager</h5>
                     <h6>HRBP, Visa</h6>
                 </div>
-                 <div class = "col-md-4  col-12 reviewinfo">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-                    <h5>Manager</h5>
-                    <h6>HRBP, Visa</h6>
-                </div>
+            </div>
         </div>
+
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+       loop:true,
+       margin:20,
+       nav:true,
+       responsive:{
+         0:{
+           items:1
+         },
+         800:{
+           items:2
+         },
+         1000:{
+           items:2
+         }
+       }
+     });
+    </script>
+
+
+        <!-- <div class = "row">
+            <div id = "myReview" class ="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target= "#myReview" data-slide-to = "0" class ="active"></li>
+                    <li data-target="#myReview" data-slide-to="1"></li>
+                     <li data-target="#myReview" data-slide-to="2"></li>
+                     <li data-target="#myReview" data-slide-to="3"></li>
+                </ol>
+
+                <div class = "carousel-inner">
+                    <div class = "col-10 reviewinfo carousel-item active">
+                        <img src = "img/iconfinder_5_avatar_1.png" class="img-fluid pic1">
+                        <div>
+                            <p>Yvonne goes above and beyond to find solutions, even when the information is hard to find which was demonstrated with her work addressing the completion of xxx. </p>
+                            <h5>Current Manager</h5>
+                            <h6>HRBP, Visa</h6>
+                        </div>
+                    </div>
+                    <div class = "col-10 reviewinfo carousel-item">
+                        <img src = "img/iconfinder_9_avatar_2.png" class ="img-fluid pic1">
+                        <div>
+                            <p>Yvonne is such a great partner. She has done a great job of taking ownership of work and working with the different stakeholders. I admire and respect her for taking accountability for the work and doing a really great job despite the high pressure situation.</p>
+                            <h5>Colleague</h5>
+                            <h6>Sr. Director, Visa</h6>
+                        </div>
+                    </div>
+                    <div class = "col-10 reviewinfo carousel-item">
+                        <img src ="img/iconfinder_1_avatar_3.png" class = "img-fluid pic1">
+                        <div>
+                            <p>Yvonne is extremely effective in her role. What makes her a pleasure to work with is that she not only completes requests in an extremely timely and accurate manner, but also does so with a great attitude.</p>
+                            <h5>Client</h5>
+                            <h6>Sr. Director, Visa</h6>
+                        </div>
+                    </div>
+                    <div class = "col-10 reviewinfo carousel-item">
+                        <img src = "img/iconfinder_4_avatar_4.png" class = "img-fluid pic1">
+                        <div>
+                            <p>Yvonne leads by example by being accountable for all that is asked of her, proactively following up to share status/ confirm completion of her commitments, and demonstrating a willingness to learn.</p>
+                            <h5>Previous Manager</h5>
+                            <h6>HRBP, Visa</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </div>
+    
 </section>
 
 
@@ -138,6 +277,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
 </body>
 
 </html>
