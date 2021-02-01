@@ -104,7 +104,7 @@ ul {
 
 .aboutme {
     display:inline;
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 .aboutpic {
@@ -167,6 +167,9 @@ html { font-size: 1rem; }
         max-width: 100%;
         height: auto;
     } 
+    .container {
+        padding: 0 !important;
+    }
 } 
 @media (min-width: 576px) {
     html { font-size: 0.8rem; }
@@ -177,6 +180,9 @@ html { font-size: 1rem; }
         max-width: 100%;
         height: auto;
     } 
+    .container {
+        padding: 0 !important;
+    }
 }
 @media (min-width: 768px) {
     html { font-size: 0.8rem; }
@@ -187,6 +193,9 @@ html { font-size: 1rem; }
         max-width: 100%;
         height: auto;
     } 
+    .container {
+        padding: 0 15px !important;
+    }
 }
 @media (min-width: 992px) {
     html { font-size: 0.8rem; }
@@ -197,6 +206,9 @@ html { font-size: 1rem; }
         max-width: 100%;
         height: auto;
     } 
+    .container {
+        padding: 0 15px !important;
+    }
 }
 @media (min-width: 1200px) {
     html { font-size: 1rem; }
@@ -207,6 +219,9 @@ html { font-size: 1rem; }
         max-width: 100%;
         height: auto;
     } 
+    .container {
+        padding: 0 15px !important;
+    }
 }
 
 /* large device */
