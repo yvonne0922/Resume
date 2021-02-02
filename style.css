@@ -118,7 +118,7 @@ ul {
 .carousel-caption {
     font-weight: normal;
     background-color: #fcf8f0;
-    opacity: 0.;
+    opacity: 0.6;
     padding: 8px 0px !important;
 }
 
@@ -126,6 +126,10 @@ ul {
     color:rgb(43, 80, 49);
 }
 
+#hobbies {
+    word-break: break-all;
+    white-space: normal;
+}
 
 /*---------review----------*/
 
